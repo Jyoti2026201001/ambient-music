@@ -1,0 +1,30 @@
+.music-library {
+    position: fixed;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+
+    width: 260px;
+    padding: 24px;
+
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+
+    color: white;
+    border-radius: 16px;
+
+    z-index: 10;
+}
+
+.music-library h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.song {
+  padding: 12px;
+  margin-bottom: 8px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}

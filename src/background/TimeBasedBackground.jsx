@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react';
+import MusicLibrary from '../components/MusicLibrary.jsx';
 
 
 function getBackgroundImage() {
@@ -30,6 +31,7 @@ const TimeBackground = () => {
     const hour = new Date().getHours();
     return (
         <div className="time-background">
+            <MusicLibrary />
             <img src={backgroundImage} alt="Time Background" />
             <div className="overlay"></div>
         </div>
