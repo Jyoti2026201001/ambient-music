@@ -1,0 +1,39 @@
+.music-player {
+  position: fixed;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+
+  width: 320px;
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(12px);
+
+  border-radius: 18px;
+  color: white;
+
+  text-align: center;
+  z-index: 20;
+}
+
+.music-player h3 {
+  margin: 0 0 8px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.controls button {
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
