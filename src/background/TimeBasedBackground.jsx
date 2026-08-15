@@ -1,6 +1,8 @@
 import {useState, useEffect} from 'react';
 import MusicLibrary from '../components/MusicLibrary.jsx';
 
+import {getTimePeriod} from '../utils/timeUtils.js';
+
 
 function getBackgroundImage() {
     const hour = new Date().getHours();
