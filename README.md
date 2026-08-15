@@ -21,5 +21,11 @@ Clone the repository and install the project dependencies:
 git clone https://github.com/Jyoti2026201001/ambient-music.git
 cd ambient-music
 npm install
+```
+
+## Running the project
+```
+npm run dev
 
 ```
+Type the url in Web Browser : - localhost:5173
