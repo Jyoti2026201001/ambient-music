@@ -16,3 +16,5 @@ const musicLibrary =[
     }
 
 ]
+
+export default musicLibrary;
