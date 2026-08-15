@@ -3,7 +3,6 @@ import { Howl } from "howler";
 let currentSound = null;
 let currentIndex = 0;
 
-let currentSound = null;
 
 const songs = [
   "/music/song1.mp3",
@@ -49,4 +48,10 @@ export function playRandomSong() {
   }
 
   playSong(randomIndex);
+}
+
+export function pauseSong() {
+  if (currentSound) {
+    currentSound.pause();
+  }
 }

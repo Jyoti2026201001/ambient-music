@@ -1,4 +1,9 @@
 import "./MusicPlayer.css";
+import {playSong, pauseSong, stopSong} from '../audioManager.js';
+
+const handlePlay = () => {
+  playSong(0); // Play the first song in the list
+}
 
 const MusicPlayer =()=>
 {
@@ -9,7 +14,7 @@ const MusicPlayer =()=>
 
       <div className="controls">
         <button>⏮</button>
-        <button>▶</button>
+        <button onClick={handlePlay}>▶</button>
         <button>⏭</button>
       </div>
     </div>);

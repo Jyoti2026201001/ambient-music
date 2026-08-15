@@ -1,10 +1,12 @@
 import {useState, useEffect} from 'react';
 import MusicLibrary from '../components/MusicLibrary.jsx';
-
-import {getTimePeriod} from '../utils/timeUtils.js';
+import MusicPlayer from '../components/MusicPlayer.jsx';
+import {getTimePeriod} from './timeUtils.js';
 
 
 function getBackgroundImage() {
+
+
     const hour = new Date().getHours();
 
     if(hour>= 6 && hour < 12) {
@@ -34,6 +36,7 @@ const TimeBackground = () => {
     return (
         <div className="time-background">
             <MusicLibrary />
+            <MusicPlayer />
             <img src={backgroundImage} alt="Time Background" />
             <div className="overlay"></div>
         </div>
