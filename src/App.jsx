@@ -1,5 +1,5 @@
 import "./App.css";
-import TimeBackground from './components/TimeBackground.jsx';
+import TimeBackground from './background/TimeBasedBackground.jsx';
 import { useState } from 'react';
 
 
