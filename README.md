@@ -7,9 +7,19 @@ A simple React-based ambient music website that provides a relaxing listening ex
 - Simple single-page interface
 - Responsive design
 
-### Prerequisites
+## Prerequisites
 The following software is required to run the project
 
 - Node js 
 - npm
 - Modern Web Browser (Prefrerable Chrome)
+
+## Installation 
+Clone the repository and install the project dependencies:
+
+```
+git clone https://github.com/Jyoti2026201001/ambient-music.git
+cd ambient-music
+npm install
+
+```
