@@ -40,3 +40,13 @@ export function stopSong() {
     currentSound.stop();
   }
 }
+
+export function playRandomSong() {
+  let randomIndex = Math.floor(Math.random() * songs.length);
+
+  if (songs.length > 1 && randomIndex === currentIndex) {
+    randomIndex = (randomIndex + 1) % songs.length;
+  }
+
+  playSong(randomIndex);
+}
