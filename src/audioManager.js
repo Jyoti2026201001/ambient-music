@@ -15,13 +15,19 @@ export function playSong(index) {
     currentSound.stop();
   }
 
+  currentIndex = index;
+
   currentSound = new Howl({
     src: [songs[index]],
     html5: true,
-    onend: () => { playNextSong(); },
+    onend: () => {
+      playNext();
+    },
   });
-  
+
   currentSound.play();
+
+  return true;
 }
 
 export function playNextSong() {
@@ -54,4 +60,17 @@ export function pauseSong() {
   if (currentSound) {
     currentSound.pause();
   }
+}
+
+export function resumeSong() {
+  if (currentSound) {
+    currentSound.play();
+  }
+}
+
+export function isSongPlaying() {
+  return currentSound ? currentSound.playing() : false;
+}
+export function getCurrentIndex() {
+  return currentIndex;
 }
