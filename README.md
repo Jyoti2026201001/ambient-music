@@ -29,3 +29,12 @@ npm run dev
 
 ```
 Type the url in Web Browser : - localhost:5173
+
+## Time-Based Backgrounds and Music
+
+The application changes its background and music according to the current time of the day.
+
+- Morning: 06:00 AM - 11:59 AM
+- Afternoon:  12:00PM - 05:00 PM
+- Evening : 05:00 PM - 08:00 PM
+- Night : 08:00 PM - 06:00 PM
