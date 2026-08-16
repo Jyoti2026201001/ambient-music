@@ -40,10 +40,14 @@ The application changes its background and music according to the current time o
 - Night : 08:00 PM - 06:00 PM
 
 // PART 7 Test Change
+
 // PART 7 misplaced commit 
+
 // PART 7 reflog recovery
 
 
 
+
 Conflict version from feature branch
+
 Conflict version from main branch
